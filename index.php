@@ -205,16 +205,18 @@ require "header.php";
 			<!-- section begin -->
             <section id="section-tracking">
                 <div class="container">
-                    <div class="row">
+                   <form method="POST" action="track_result">
+                   <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="cta-form wow fadeIn" data-wow-delay="0s" data-wow-duration="1s">
-                                <input type="text" name="track" value="" placeholder="Insert tracking number here...">
-                                <input type="submit" id="track-it" name="submit" value="TRACK IT">
+                                <input type="text" name="track_number" value="" placeholder="Insert tracking number here...">
+                                <input type="submit" id="track-it" name="track" value="TRACK IT">
                                 <div class="clearfix"></div>
                             </div>
 
                         </div>
                     </div>
+                   </form>
                 </div>
 
                 <!-- <div id="section-tracking-result" class="light-text">

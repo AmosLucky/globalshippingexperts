@@ -8,3 +8,7 @@ RewriteRule ^contact$  contact.php
 RewriteRule ^services$  services.php
 RewriteRule ^track$  track.php
 RewriteRule ^service-details$  service-details.php
+RewriteRule ^track_result$  track_result.php
+
+
+

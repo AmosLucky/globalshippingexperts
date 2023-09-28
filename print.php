@@ -143,13 +143,14 @@ if($status == "In progress"){
         <div class="row"  >
           <div class="col-xs-12">
             <h2 class="page-header">
-        <span><img src="img/logo.png"
+        <span>
+          <img src="img/logo.png"
                                 alt="Air shipment tracking system, Sea shipment tracking system, Cargo tracking system"
                                 title="Worldwide ExpressForce & shpiment tracking system" width="190" height="85" border="0"> 
         
         
     
-        <img class="pull-right"  src="img/logo.png" alt=""  height="185"/> 
+        <img class="pull-right"  src="assets/banner.png" alt=""  height="150"/> 
         
         <h3 style="color:red;"><strong> Tracking Number:  <?php echo $track_number ?></strong>
         </h3></span>

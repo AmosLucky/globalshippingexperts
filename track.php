@@ -11,7 +11,7 @@ require "header.php";
                     <div class="row">
                         <div class="col-md-12">
                             <h1>Track
-							<span>Your Package Info</span>
+							<span>Your Package</span>
                             </h1>
                             <div class="small-border wow flipInY" data-wow-delay=".8s" data-wow-duration=".8s"></div>
                         </div>
@@ -28,16 +28,18 @@ require "header.php";
             <!-- section begin -->
             <section id="section-tracking">
                 <div class="container">
-                    <div class="row">
+                   <form method="POST" action="track_result2.php">
+                   <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <div class="cta-form wow fadeIn" data-wow-delay="0s" data-wow-duration="1s">
-                                <input type="text" name="track" value="" placeholder="Insert tracking number here...">
-                                <input type="submit" id="track-it" name="submit" value="TRACK IT">
+                                <input type="text" name="track_number" value="" placeholder="Insert tracking number here...">
+                                <input type="submit" id="track-it" name="track" value="TRACK IT">
                                 <div class="clearfix"></div>
                             </div>
 
                         </div>
                     </div>
+                   </form>
                 </div>
 
                 <div id="section-tracking-result" class="light-text">
