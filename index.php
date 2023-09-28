@@ -7,39 +7,153 @@ require "header.php";
         <div id="slider">
             <!-- revolution slider begin -->
             <div class="fullwidthbanner-container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+                <div id="revolution-slider">
+                    <ul>
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
+                            <!--  BACKGROUND IMAGE -->
+                            <img src="img-rev-slider/bg-2.jpg" alt="">
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img-rev-slider/bg-2.jpg" alt="Los Angeles" style="width:100%;">
-      </div>
+                            <div class="tp-caption h-line lft"
+                                data-x="20"
+                                data-y="130"
+                                data-speed="800"
+                                data-start="1000"
+                                data-easing="easeInOutCubic"
+                                data-endspeed="300">
+                            </div>
 
-      <div class="item">
-        <img src="img-rev-slider/bg-2.jpg" alt="Chicago" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="img-rev-slider/bg-2.jpg" alt="New york" style="width:100%;">
-      </div>
-    </div>
+                            <div class="tp-caption sfb custom-font-2"
+                                data-x="20"
+                                data-y="180"
+                                data-speed="800"
+                                data-start="800"
+                                data-easing="easeInOutCubic">
+                                Join the millions getting bargain deals on shipping
+                            </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+                            <div class="tp-caption sfr custom-font-1"
+                                data-x="20"
+                                data-y="235"
+                                data-speed="800"
+                                data-start="1000"
+                                data-easing="easeInOutCubic">
+                                BY SEA 
+                            </div>
+
+                            <div class="tp-caption sfr custom-font-1"
+                                data-x="20"
+                                data-y="290"
+                                data-speed="800"
+                                data-start="1200"
+                                data-easing="easeInOutCubic">
+                                BY AIR 
+                            </div>
+
+                            <div class="tp-caption sfr custom-font-1"
+                                data-x="20"
+                                data-y="345"
+                                data-speed="800"
+                                data-start="1400"
+                                data-easing="easeInOutCubic">
+                                BY LAND
+                            </div>
+
+                            <div class="tp-caption sfb text-left"
+                                data-x="20"
+                                data-y="415"
+                                data-speed="800"
+                                data-start="1600"
+                                data-easing="easeInOutCubic">
+                                <a class="btn btn-slider" href="services">LEARN MORE</a>
+                                <!-- &nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a> -->
+                            </div>
+                        </li>
+
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
+                            <!--  BACKGROUND IMAGE -->
+                            <img src="img-rev-slider/bg-5.jpg" alt="">
+
+                            <div class="tp-caption h-line lft"
+                                data-x="center"
+                                data-y="170"
+                                data-speed="800"
+                                data-start="1000"
+                                data-easing="easeInOutCubic"
+                                data-endspeed="300">
+                            </div>
+
+                            <div class="tp-caption lft custom-font-1"
+                                data-x="center"
+                                data-y="220"
+                                data-speed="800"
+                                data-start="800"
+                                data-easing="easeInOutCubic">
+                                Delivering Excellence 
+                            </div>
+
+                            <div class="tp-caption sfb custom-font-2"
+                                data-x="center"
+                                data-y="270"
+                                data-speed="800"
+                                data-start="1400"
+                                data-easing="easeInOutCubic">
+                                We Deliver Fast, International  Services
+                            </div>
+
+                            <div class="tp-caption sfb text-left"
+                                data-x="center"
+                                data-y="330"
+                                data-speed="800"
+                                data-start="1600"
+                                data-easing="easeInOutCubic">
+                                <a class="btn btn-slider" href="services">LEARN MORE</a>
+                                <!-- &nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a> -->
+                            </div>
+                        </li>
+
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
+                            <!--  BACKGROUND IMAGE -->
+                            <img src="img-rev-slider/bg-1.jpg" alt="">
+
+                            <div class="tp-caption h-line lft"
+                                data-x="center"
+                                data-y="170"
+                                data-speed="800"
+                                data-start="1000"
+                                data-easing="easeInOutCubic"
+                                data-endspeed="300">
+                            </div>
+
+                            <div class="tp-caption lft custom-font-1"
+                                data-x="center"
+                                data-y="220"
+                                data-speed="800"
+                                data-start="800"
+                                data-easing="easeInOutCubic">
+                                Makes You Smile 
+                            </div>
+
+                            <div class="tp-caption sfb custom-font-2"
+                                data-x="center"
+                                data-y="270"
+                                data-speed="800"
+                                data-start="1400"
+                                data-easing="easeInOutCubic">
+                                On Time Delivery Don't Worry Be Happy
+                            </div>
+
+                            <div class="tp-caption sfb text-left"
+                                data-x="center"
+                                data-y="330"
+                                data-speed="800"
+                                data-start="1600"
+                                data-easing="easeInOutCubic">
+                                <a class="btn btn-slider" href="services">LEARN MORE</a>
+                                <!-- &nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a> -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- revolution slider close -->
         </div>
