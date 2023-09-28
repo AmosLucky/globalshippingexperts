@@ -9,22 +9,23 @@
                         <h3>Our Services</h3>
                         <div class="tiny-border"></div>
                         <ul>
-                            <li><a href="#">Ocean Freight</a></li>
-                            <li><a href="#">Sky Freight</a></li>
-                            <li><a href="#">Cargo Express</a></li>
-                            <li><a href="#">Logistics</a></li>
-                            <li><a href="#">Warehousing</a></li>
-                            <li><a href="#">Custom Brokerage</a></li>
+                            <li><a href="service-details?id=1">Ocean Freight</a></li>
+                            <li><a href="service-details?id=2">Air Freight</a></li>
+                            <li><a href="service-details?id=3">Cargo Express</a></li>
+                            <li><a href="service-details?id=4">Logistics</a></li>
+                            <li><a href="service-details?id=5">Warehousing</a></li>
+                            <li><a href="service-details?id=6">Custom Brokerage</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-4">
                         <h3>Location</h3>
                         <div class="tiny-border"></div>
-                        Somewhere Over Rainbow<br>
-                        Green World Rainbow Green World<br>
-                        T. 0908 1000 1000<br>
-                        E. contact@exotheme.com<br>
+                       <p>
+                       <?php echo $company_address ?>
+                       </p>
+                        
+                        E. <?php echo $company_email ?> <br>
 
                         <div class="divider-single"></div>
                         <div class="social-icons">
@@ -37,10 +38,12 @@
                     </div>
 
                     <div class="col-md-4">
-                        <h3>Buy Now</h3>
+                        <h3>About us</h3>
                         <div class="tiny-border"></div>
-                        <p>Multi-modal container units, designed as reusable carriers to facilitate unit load handling of the goods contained, are also referred to as cargo, specially by shipping lines and logistics operators.</p>
-                        <a href="#" class="btn-border-light">Buy Now</a>
+                        <p>
+                        Welcome to Global Shipping Experts, your trusted partner in international logistics and freight forwarding
+                            .</p>
+                        <a href="about" class="btn-border-light">About us</a>
                     </div>
 
                 </div>
@@ -51,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="spacer-single"></div>
-                        &copy; Copyright 2015 - GoCargo by ExoTheme
+                        &copy; Copyright 2023 - <?php echo $company_name ?>
                     </div>
                 </div>
             </div>

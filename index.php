@@ -7,153 +7,39 @@ require "header.php";
         <div id="slider">
             <!-- revolution slider begin -->
             <div class="fullwidthbanner-container">
-                <div id="revolution-slider">
-                    <ul>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
-                            <!--  BACKGROUND IMAGE -->
-                            <img src="img-rev-slider/bg-2.jpg" alt="">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-                            <div class="tp-caption h-line lft"
-                                data-x="20"
-                                data-y="130"
-                                data-speed="800"
-                                data-start="1000"
-                                data-easing="easeInOutCubic"
-                                data-endspeed="300">
-                            </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img-rev-slider/bg-2.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
 
-                            <div class="tp-caption sfb custom-font-2"
-                                data-x="20"
-                                data-y="180"
-                                data-speed="800"
-                                data-start="800"
-                                data-easing="easeInOutCubic">
-                                Join the millions getting bargain deals on shipping
-                            </div>
+      <div class="item">
+        <img src="img-rev-slider/bg-2.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="img-rev-slider/bg-2.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
 
-                            <div class="tp-caption sfr custom-font-1"
-                                data-x="20"
-                                data-y="235"
-                                data-speed="800"
-                                data-start="1000"
-                                data-easing="easeInOutCubic">
-                                BY SEA 
-                            </div>
-
-                            <div class="tp-caption sfr custom-font-1"
-                                data-x="20"
-                                data-y="290"
-                                data-speed="800"
-                                data-start="1200"
-                                data-easing="easeInOutCubic">
-                                BY AIR 
-                            </div>
-
-                            <div class="tp-caption sfr custom-font-1"
-                                data-x="20"
-                                data-y="345"
-                                data-speed="800"
-                                data-start="1400"
-                                data-easing="easeInOutCubic">
-                                BY LAND
-                            </div>
-
-                            <div class="tp-caption sfb text-left"
-                                data-x="20"
-                                data-y="415"
-                                data-speed="800"
-                                data-start="1600"
-                                data-easing="easeInOutCubic">
-                                <a class="btn btn-slider" href="services">LEARN MORE</a>
-                                <!-- &nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a> -->
-                            </div>
-                        </li>
-
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
-                            <!--  BACKGROUND IMAGE -->
-                            <img src="img-rev-slider/bg-5.jpg" alt="">
-
-                            <div class="tp-caption h-line lft"
-                                data-x="center"
-                                data-y="170"
-                                data-speed="800"
-                                data-start="1000"
-                                data-easing="easeInOutCubic"
-                                data-endspeed="300">
-                            </div>
-
-                            <div class="tp-caption lft custom-font-1"
-                                data-x="center"
-                                data-y="220"
-                                data-speed="800"
-                                data-start="800"
-                                data-easing="easeInOutCubic">
-                                Delivering Excellence 
-                            </div>
-
-                            <div class="tp-caption sfb custom-font-2"
-                                data-x="center"
-                                data-y="270"
-                                data-speed="800"
-                                data-start="1400"
-                                data-easing="easeInOutCubic">
-                                We Deliver Fast, International  Services
-                            </div>
-
-                            <div class="tp-caption sfb text-left"
-                                data-x="center"
-                                data-y="330"
-                                data-speed="800"
-                                data-start="1600"
-                                data-easing="easeInOutCubic">
-                                <a class="btn btn-slider" href="services">LEARN MORE</a>
-                                <!-- &nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a> -->
-                            </div>
-                        </li>
-
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
-                            <!--  BACKGROUND IMAGE -->
-                            <img src="img-rev-slider/bg-1.jpg" alt="">
-
-                            <div class="tp-caption h-line lft"
-                                data-x="center"
-                                data-y="170"
-                                data-speed="800"
-                                data-start="1000"
-                                data-easing="easeInOutCubic"
-                                data-endspeed="300">
-                            </div>
-
-                            <div class="tp-caption lft custom-font-1"
-                                data-x="center"
-                                data-y="220"
-                                data-speed="800"
-                                data-start="800"
-                                data-easing="easeInOutCubic">
-                                Makes You Smile 
-                            </div>
-
-                            <div class="tp-caption sfb custom-font-2"
-                                data-x="center"
-                                data-y="270"
-                                data-speed="800"
-                                data-start="1400"
-                                data-easing="easeInOutCubic">
-                                On Time Delivery Don't Worry Be Happy
-                            </div>
-
-                            <div class="tp-caption sfb text-left"
-                                data-x="center"
-                                data-y="330"
-                                data-speed="800"
-                                data-start="1600"
-                                data-easing="easeInOutCubic">
-                                <a class="btn btn-slider" href="services">LEARN MORE</a>
-                                <!-- &nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a> -->
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
             </div>
             <!-- revolution slider close -->
         </div>
@@ -335,44 +221,47 @@ require "header.php";
                             <div class="small-border wow flipInY" data-wow-delay=".2s" data-wow-duration=".8s"></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="feature-box">
-                                <i class="icon-tools wow zoomIn" data-wow-delay="0s"></i>
-                                <div class="text wow fadeIn" data-wow-delay=".2s">
-                                    <h3>Customer Satisfication Tools</h3>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
-                                </div>
+                        <div class="feature-box">
+                            <i class="icon-tools wow zoomIn" data-wow-delay="0s"></i>
+                            <div class="text wow fadeIn" data-wow-delay=".2s">
+                                <h3>Expertise and Experience: </h3>
+                                <p>
+                                    With years of experience in the shipping industry, Global Shipping Experts brings a wealth of knowledge and expertise to the table. Our team of professionals understands the intricacies of international logistics, customs regulations, and supply chain management.
+                                </p>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-md-6">
-                            <div class="feature-box">
-                                <i class="icon-bargraph wow zoomIn" data-wow-delay=".2s"></i>
-                                <div class="text wow fadeIn" data-wow-delay=".4s">
-                                    <h3>Management &amp; Reporting</h3>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                            <i class="icon-bargraph wow zoomIn" data-wow-delay=".2s"></i>
+                            <div class="text wow fadeIn" data-wow-delay=".4s">
+                                <h3>Comprehensive Solutions: </h3>
+                                <p>
+                                    We offer a one-stop-shop for all your shipping needs. Whether you require air, ocean, or land freight services, customs clearance, warehousing, e-commerce shipping, or specialized project cargo solutions, we have you covered. Our diverse range of services caters to businesses of all sizes and industries.</p>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-md-6">
-                            <div class="feature-box">
-                                <i class="icon-pricetags wow zoomIn" data-wow-delay=".4s"></i>
-                                <div class="text wow fadeIn" data-wow-delay=".6s">
-                                    <h3>Freight Payment Options</h3>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                            <i class="icon-pricetags wow zoomIn" data-wow-delay=".4s"></i>
+                            <div class="text wow fadeIn" data-wow-delay=".6s">
+                                <h3>Global Network:</h3>
+                                <p>Thanks to our extensive network of partners and agents worldwide, we can seamlessly connect your business to markets across the globe. Whether you're expanding into new territories or consolidating your presence in existing markets, our global reach ensures your cargo reaches its destination reliably and efficiently.</p>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-md-6">
-                            <div class="feature-box">
-                                <i class="icon-refresh wow zoomIn" data-wow-delay=".6s"></i>
-                                <div class="text wow fadeIn" data-wow-delay=".8s">
-                                    <h3>Compliance Solutions</h3>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                            <i class="icon-refresh wow zoomIn" data-wow-delay=".6s"></i>
+                            <div class="text wow fadeIn" data-wow-delay=".8s">
+                                <h3>Customs Expertise: </h3>
+                                <p>Navigating the complexities of customs clearance can be a daunting task. Our experienced customs experts will handle all documentation and compliance matters, ensuring that your cargo moves smoothly through customs, avoiding unnecessary delays and penalties.</p>
                             </div>
                         </div>
+                    </div>
 
                         <div class="clearfix"></div>
 

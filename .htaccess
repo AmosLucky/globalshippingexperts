@@ -1,0 +1,10 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^index$  index.php
+RewriteRule ^about$  about.php
+RewriteRule ^contact$  contact.php
+RewriteRule ^services$  services.php
+RewriteRule ^track$  track.php
+RewriteRule ^service-details$  service-details.php

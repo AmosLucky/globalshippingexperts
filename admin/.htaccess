@@ -1,0 +1,13 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^admin$  index.php
+RewriteRule ^login$  login.php
+RewriteRule ^index$  index.php
+RewriteRule ^create$  create.php
+
+
+
+
+
