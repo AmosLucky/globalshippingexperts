@@ -66,7 +66,12 @@ if($status == "In progress"){
 	$delivery_title = "";
 	$delivery_note = "";
 	$delivery_date = "------";
+	$total = "------";
 
+}
+
+if($sender_mobile == ""){
+	$sender_mobile = "------";
 }
 
 		
@@ -216,7 +221,7 @@ if($status == "In progress"){
                                                 <div class="timeline-body">
 
                                                 <?php
-										if($status == "Delivered" || $status == "On hold"){
+										if($status == "Half way"){
 									
 									echo 'Progress continues';
 									} 
@@ -425,8 +430,8 @@ Bill of Lading:</b></td>
         
       </tr>
        <tr>
-        <td><b>Mode of Payment:</b></td>
-        <td><?php echo $mode_of_payment ?></td>
+        <!-- <td><b>Mode of Payment:</b></td>
+        <td><?php //echo $mode_of_payment ?></td> -->
         
       </tr>
       

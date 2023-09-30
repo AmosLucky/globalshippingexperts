@@ -62,63 +62,7 @@ require "header.php";
 
                 <div class="divider-line"></div>
 
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".8s">Our Branch
-                        </h2>
-                        <div class="small-border wow flipInY" data-wow-delay=".8s" data-wow-duration=".8s"></div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h3>United States</h3>
-                        Somewhere Over Rainbow<br>
-                        Green World Rainbow Green World<br>
-                        T. 0908 1000 1000<br>
-                        E. contact@exotheme.com<br>
-
-                        <div class="divider-single"></div>
-
-                        <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="btn-border popup-gmaps">View Location</a>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h3>Germany</h3>
-                        Somewhere Over Rainbow<br>
-                        Green World Rainbow Green World<br>
-                        T. 0908 1000 1000<br>
-                        E. contact@exotheme.com<br>
-
-                        <div class="divider-single"></div>
-
-                        <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="btn-border popup-gmaps">View Location</a>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h3>Singapore</h3>
-                        Somewhere Over Rainbow<br>
-                        Green World Rainbow Green World<br>
-                        T. 0908 1000 1000<br>
-                        E. contact@exotheme.com<br>
-
-                        <div class="divider-single"></div>
-
-                        <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="btn-border popup-gmaps">View Location</a>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h3>Indonesia</h3>
-                        Somewhere Over Rainbow<br>
-                        Green World Rainbow Green World<br>
-                        T. 0908 1000 1000<br>
-                        E. contact@exotheme.com<br>
-
-                        <div class="divider-single"></div>
-
-                        <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="btn-border popup-gmaps">View Location</a>
-                    </div>
-
-
-                </div>
+                
 
 
             </div>

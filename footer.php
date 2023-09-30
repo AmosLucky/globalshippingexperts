@@ -21,20 +21,21 @@
                     <div class="col-md-4">
                         <h3>Location</h3>
                         <div class="tiny-border"></div>
-                       <p>
-                       <?php echo $company_address ?>
-                       </p>
+                       <!-- <p>
+                       <?php// echo $company_address ?>
+                       </p> -->
                         
-                        E. <?php echo $company_email ?> <br>
+                         <?php //echo $company_email ?> <br>
 
                         <div class="divider-single"></div>
-                        <div class="social-icons">
+                        <!-- <div class="social-icons">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
                             <a href="#"><i class="fa fa-rss"></i></a>
                             <a href="#"><i class="fa fa-envelope-o"></i></a>
-                        </div>
+                        </div> -->
+                        <img src="img/logo.png" height="50" />
                     </div>
 
                     <div class="col-md-4">

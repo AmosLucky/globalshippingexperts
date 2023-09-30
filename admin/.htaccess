@@ -2,18 +2,10 @@
 RewriteEngine on
 
 # Rewrite for contact.php
-RewriteRule ^contact$  contact.php
-RewriteRule ^home$   index.php 
-RewriteRule ^index$   index.php 
-RewriteRule ^about$   about.php 
-RewriteRule ^about-us$   about.php 
-RewriteRule ^faq$   faq.php 
-RewriteRule ^track$ track.php
-
-RewriteRule ^terms$   terms.php
-RewriteRule ^services1$   services.php
-RewriteRule ^print$   print.php
-RewriteRule ^track_result$   track_result.php
+RewriteRule ^admin$  index.php
+RewriteRule ^login$  login.php
+RewriteRule ^index$  index.php
+RewriteRule ^create$  create.php
 
 
 

@@ -167,8 +167,8 @@ if($status == "In progress"){
             <h2 class="page-header">
          <center> 
              <b style="color:green;"><?php echo $company_name ?><br>
-           Email: <?php echo $company_email ?><br>
-Website: www.deliveryhomelogistics.com</b></center>
+           <!--Email: <?php //echo $company_email ?><br>-->
+Website: www.globalshippingexperts.com</b></center>
             </h2>
           </div><!-- /.col -->
         </div>

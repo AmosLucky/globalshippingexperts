@@ -106,7 +106,12 @@ if($status == "In progress"){
 	$delivery_title = "";
 	$delivery_note = "";
 	$delivery_date = "------";
+	$status = "------";
 
+}
+
+if($sender_mobile == ""){
+	$sender_mobile = "------";
 }
 
 		
@@ -394,7 +399,10 @@ Bill of Lading:</b></td>
 
       <tr>
         <td><b>Total Charges:</b></td>
-        <td><?php echo $total ?></td>
+        <td><?php 
+		
+			echo $total;
+		 ?></td>
         
       </tr>
        <tr>

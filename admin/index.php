@@ -137,7 +137,7 @@ $status =$row['status'];
 ?>
                                      
                                             <tr>
-                                                <td><?php echo $receiver_name  ?></td>
+                                                <td><?php echo $sender_name."  →→ To →→ ". $receiver_name  ?></td>
                                                 <td><?php echo $track_number  ?></td>
                                                 <td>
                                                     <?php echo $status  ?>
@@ -152,11 +152,13 @@ $status =$row['status'];
                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="overflow: hidden; position: relative;" aria-expanded="false">Action <i class="mdi mdi-chevron-down"></i>
                </button>
                      <ul class="dropdown-menu" style="">
-                        <?php  if($status=="In progress"){?>
+                        
                      <li><a href="index?status=2&&i=<?php echo $id ?>" class="dropdown-item">Delivered</a></li>
-                 <?php } else{ ?>
+                 
                      <li><a href="index?status=1&&i=<?php echo $id ?>" class="dropdown-item">In progress</a></li>
-                 <?php } ?>
+                     <li><a href="index?status=1&&i=<?php echo $id ?>" class="dropdown-item">Half way</a></li>
+                     <li><a href="index?status=1&&i=<?php echo $id ?>" class="dropdown-item">On hold</a></li>
+                 
                  <li><a href="../print?rrc=<?php echo $id ?>" class="dropdown-item">Print reciept</a></li>
                  <li><a href="edit.php?rrc=<?php echo $id ?>" class="dropdown-item">Edit Record</a></li>
 
