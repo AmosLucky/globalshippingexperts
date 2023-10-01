@@ -69,6 +69,8 @@ $status =$row['status'];
 
 if(isset($_POST['update'])){
 
+    $id =  $_POST['id'];
+
     /////////////SENDER DETAILS//////
 $sender_name = $_POST["sender_name"];
 $sender_email = $_POST["sender_email"];
@@ -109,9 +111,20 @@ $sql = "SELECT * FROM waybils where track_number = '$track_number'";
 $q = mysqli_query($con,$sql);
 
 
-$sql = "INSERT INTO waybils (track_number,sender_name,sender_email, sender_mobile,sender_address, receiver_name, receiver_email,receiver_mobile,receiver_address, from_country,to_country,delivery_date,sent_date,bill_of_landing,quantity,weight_of_product,shipment_type,content,mode_of_payment,mode_of_shipment,total, delivery_title, delivery_note, sent_title, sent_note, status) values(
-    '$track_number','$sender_name','$sender_email', '$sender_mobile','$sender_address', '$receiver_name', '$receiver_email','$receiver_mobile','$receiver_address', '$from_country','$to_country','$delivery_date','$sent_date','$bill_of_landing','$quantity','$weight_of_product','$shipment_type','$content','$mode_of_payment','$mode_of_shipment','$total', '$delivery_title', '$delivery_note', '$sent_title', '$sent_note', '$status'
-)";
+$sql = "UPDATE waybils SET track_number = '$track_number',
+sender_name = '$sender_name',sender_email = '$sender_email', 
+sender_mobile = '$sender_mobile',sender_address = '$sender_address',
+ receiver_name = '$receiver_name',
+ receiver_email = '$receiver_email',receiver_mobile = '$receiver_mobile',
+ receiver_address = '$receiver_address', from_country = '$from_country',
+ to_country = '$to_country',delivery_date = '$delivery_date',sent_date = '$sent_date',
+ bill_of_landing = '$bill_of_landing',quantity = '$quantity',weight_of_product = '$weight_of_product',
+ shipment_type = '$shipment_type',
+ content = '$content',mode_of_payment = '$mode_of_payment',
+ mode_of_shipment = '$mode_of_shipment',
+ total = '$total', delivery_title = '$delivery_title', delivery_note =  '$delivery_note',
+  sent_title = '$sent_title', sent_note = '$sent_note', status = '$status' WHERE id = '$id'
+";
 
 $result = mysqli_query($con,$sql);
 
@@ -145,6 +158,8 @@ if($result){
                 <div class="content">
 
                     <form method="POST">
+
+                    <input name="id" value="<?php echo  $id ?>" type="hidden" >
 
                     <!-- Start container-fluid -->
                     <div class="container-fluid">
